@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: #1A1B21;
+    border-radius:10px;
+}
+
+.main {
+    text-align: center;
+    margin:0;
+}
+
+.main >h1{
+    font:bold;
+    font-size: 25;
+    color:white;
+    margin-bottom: 0;
+}
+
+.main >h2{
+    font-size:medium;
+    color:#F3BF99;
+    font-weight: normal;
+    padding-top: px;
+}
+
+.main >h3{
+    font-size:small;
+    color: #DCDCDC;
+    font-style:normal;
+    font-weight: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    border-radius: 6px;
+    border-width: 0px;
+    margin-right: 30px;
+    padding: 9px;
+    padding-left: 12.6px;
+    padding-right: 11px;
+}
+
+.linkedin {
+    display: flex;
+    border-radius: 6px;
+    border-width: 0px;
+    background-color: #5093E2;
+    padding: 9px;
+    padding-left: 16px;
+    padding-right: 11px;
+    color:white;
+}
+
+.image{
+    border-start-start-radius:10px;
+    width:100%;
+}
+
+.email >img{
+    padding-right: 9.6px;
+    
+}.linkedin >img{
+    padding-right: 9.6px;
+}
+
+.content{
+    color:white;
+    padding-left: 36px;
+    padding-right: 34px;
+    padding-bottom: 43px;
+}
+.content >h1{
+    font-size: larger;
+}
+
+.content >h2{
+    color:#DCDCDC;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: #161619;
+    justify-content: center;
+    display: flex;
+    padding: 20px;    
+    border-radius: 10px; 
+}
+
+.twitter{
+    background-color: transparent;
+    justify-content: center;
+    margin-right: 24px;
+    border-width: 0px;
+}
+
+.fb{
+    background-color: transparent;
+    margin-right: 24px;
+    border-width: 0px;
+}
+
+.ins{
+    background-color: transparent;
+    margin-right: 24px;
+    border-width: 0px;
+}
+
+.github{
+    background-color: transparent;
+    margin-right: 24px;
+    border-width: 0px;
+}
